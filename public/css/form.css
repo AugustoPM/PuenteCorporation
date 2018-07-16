@@ -1,0 +1,62 @@
+/*Contactos*/
+.formulario{
+background-color: rgb(220, 216, 216);
+}
+.contacto {
+    padding: 40px 0;
+    border-top: 1px solid #CBCBCB ;
+	margin-bottom: 40px;
+	text-align: center;
+ }
+ 
+ .contacto .titulo{
+    color: #000000 ;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    text-align: center;
+ }
+ 
+ .contacto .form-group {
+    margin-bottom: 0;
+ }
+ 
+ .contacto input[type="text"],
+ .contacto input[type="email"]{
+    padding: 15px;
+    border: none;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 30px;
+ }
+
+ .formulario textarea {
+    padding: 15px;
+    border: none;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+     height: 150px;
+     min-height: 150px;
+     max-height: 250px;
+     resize: none;
+ }
+
+ .formulario .infocaract {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 30px;
+    font-size: 12px;
+    color: #7B7979;
+ }
+ .formulario .boton {
+     background: #3da5e2;
+     border: none;
+    padding: 7px 30px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    width: auto;
+    border-radius: 3px;
+    }
+ .formulario .boton:hover {
+     background: #158CD3;
+ }
